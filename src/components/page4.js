@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { ButtonBack, ButtonNext } from 'pure-react-carousel';
+import Carousel from 'react-bootstrap/Carousel'
+
 
 // 프로젝트 내역
 class Page4 extends Component {
@@ -16,8 +18,30 @@ class Page4 extends Component {
           </div>
           <div className="content-wrapper row">
             <div className="col-md-6 video-wrapper">
-              <div className="embed-responsive embed-responsive-16by9 media">
-                <iframe title="project2" src="https://www.youtube.com/embed/k8K98UBskyA" frameBorder="0" allowFullScreen></iframe>
+              <div className="embed-responsive media">
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./img/today1.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./img/today2.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./img/today3.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel> 
               </div>
               <div className="btn-wrapper">
                 <div className="btn-group" role="group" aria-label="button group">

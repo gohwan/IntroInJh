@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { CarouselProvider, Slider, Slide, ButtonNext } from 'pure-react-carousel';
+// import  'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 import Page2 from './components/page2';
 import Page3 from './components/page3';
 import Page4 from './components/page4';
+import Page5 from './components/page5';
 import Page6 from './components/page6';
 import './App.css';
 
@@ -35,8 +39,7 @@ class App extends Component {
         >
           <Slider>
             <Slide index={0}>
-            <Page6 />
-
+            {/* <Page3 /> */}
               <div className="page-1">
                 <span className="fa fa-check-circle react-msg" aria-hidden="true"> 본 사이트는 React로 제작되었습니다.</span>
                 {this.guideMsg()}
@@ -57,23 +60,21 @@ class App extends Component {
               </div>
             </Slide> */}
 
-             <Slide index={1}>
-              <Page2 />
-            </Slide>
+           
 
-            <Slide index={2}>
+            <Slide index={1}>
               <Page3 />
             </Slide>
 
-            <Slide index={3}>
+            <Slide index={2}>
               <Page4 />
             </Slide>
 
-            {/* <Slide index={4}>
+            <Slide index={3}>
               <Page5 />
-            </Slide> */}
+            </Slide>
 
-            <Slide index={0}>
+            <Slide index={4}>
               <Page6 />
             </Slide>
 

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    
+    "site": "jh-2019",
     "public": "build",
     "ignore": [
       "firebase.json",

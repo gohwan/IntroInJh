@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import { ButtonBack, ButtonNext } from 'pure-react-carousel';
+import React, { useState, Component } from 'react';
+import  { ButtonBack, ButtonNext } from 'pure-react-carousel';
+import Carousel from 'react-bootstrap/Carousel'
 
+  
 class Page3 extends Component {
   render() {
     return (
@@ -15,8 +17,30 @@ class Page3 extends Component {
           </div>
           <div className="content-wrapper row">
             <div className="col-md-6 video-wrapper">
-              <div className="embed-responsive embed-responsive-16by9 media">
-                <iframe title="project1" className="embed-responsive-item project-video" src="https://www.youtube.com/embed/gty0xzSBzRk" frameBorder="0" gesture="media" allowFullScreen />
+              <div className="embed-responsive  media">   
+              <Carousel interval={1000000}>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100 h-90"
+                    src="./img/today1.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./img/today3.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./img/today2.png"
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>      
               </div>
               <div className="btn-wrapper">
                 <div className="btn-group" role="group" aria-label="button group">
@@ -55,7 +79,7 @@ class Page3 extends Component {
                     <li className="fa fa-check" aria-hidden="true"> Node.js와 MySql(Sequelize) 활용한 백엔드 작업</li><br />
                     <li className="fa fa-check" aria-hidden="true"> Passport와 KaKao Api 를 이용한 회원 관리</li><br />
                     <li className="fa fa-check" aria-hidden="true"> Ejs와 Sass를 이용한 프론트엔드 작업</li><br />
-                    <li className="fa fa-check" aria-hidden="true"> 깃헙 프로젝트, 배포전 보안 </li>
+                    <li className="fa fa-check" aria-hidden="true"> 깃헙 프로젝트, 배포전 보안 , PM2 </li>
                   </ul>
                 </li>
                 <h5 className="content-title"><span className="fa fa-hashtag" aria-hidden="true"></span> 활용 기술</h5>
@@ -68,6 +92,7 @@ class Page3 extends Component {
         <ButtonNext className="to-bottom-project">
           <span className="fa fa-angle-double-down" aria-hidden="true"></span>
         </ButtonNext>
+
       </div>
     );
   }
