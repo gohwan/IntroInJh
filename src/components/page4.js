@@ -23,40 +23,33 @@ class Page4 extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="./img/today1.png"
+                    src="./img/note1.png"
                     alt="Third slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="./img/today2.png"
+                    src="./img/note2.png"
                     alt="Third slide"
                   />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="./img/today3.png"
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
+                </Carousel.Item>                
               </Carousel> 
               </div>
               <div className="btn-wrapper">
                 <div className="btn-group" role="group" aria-label="button group">
-                  <form action="https://github.com/hwan97/TodayEat" target="_blank">
+                  {/* <form action="https://github.com/hwan97/TodayEat" target="_blank">
                     <button type="submit" className="btn btn-info-link btn-outline-secondary">
                       <span className="fa fa-github" aria-hidden="true"></span>
                       &nbsp;Github
                   </button>
-                  </form>
-                  <form action="https://mood-vuex.firebaseapp.com/" target="_blank">
+                  </form> */}
+                  {/* <form action="https://.firebaseapp.com/" target="_blank">
                     <button type="submit" className="btn btn-info-link btn-outline-secondary">
                       <span className="fa fa-globe" aria-hidden="true"></span>
                       &nbsp;Web Site
                   </button>
-                  </form>                  
+                  </form>                   */}
                 </div>
               </div>
             </div>

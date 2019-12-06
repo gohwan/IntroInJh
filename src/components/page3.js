@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { Component } from 'react';
 import  { ButtonBack, ButtonNext } from 'pure-react-carousel';
 import Carousel from 'react-bootstrap/Carousel'
 
