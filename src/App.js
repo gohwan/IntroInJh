@@ -67,11 +67,11 @@ class App extends Component {
             </Slide>
 
             <Slide index={2}>
-              <Page4 />
+              <Page5 />
             </Slide>
 
             <Slide index={3}>
-              <Page5 />
+              <Page4 />
             </Slide>
 
             <Slide index={4}>

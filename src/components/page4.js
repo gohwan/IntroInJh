@@ -13,7 +13,7 @@ class Page4 extends Component {
         </ButtonBack>
         <div className="container-fluid">
           <div className="title-wrapper">
-            <h2 className="project-title">마이노트</h2>
+            <h2 className="project-title">마이노트 (제작중) </h2>
             <h4 className="sub-title">질문하고 답변받는 노트</h4>
           </div>
           <div className="content-wrapper row">
@@ -58,7 +58,7 @@ class Page4 extends Component {
                 <li className="info-list">
                   <h5 className="content-title"><span className="fa fa-hashtag" aria-hidden="true"></span> 개요</h5>
                   <p className="content-text-summary fa fa-angle-right" aria-hidden="true"> 
-                  &nbsp; 쿼라를 모티브한 서비스 입니다. 회원들 간의 질문을 하고 답변을 받거나 답변을 줄 수 있습니다. (제작중)
+                  &nbsp; 쿼라를 모티브한 서비스 입니다. 회원들 간의 질문을 하고 답변을 받거나 답변을 줄 수 있습니다. 
                   </p>
                 </li>
                 <li className="info-list">
