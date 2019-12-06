@@ -19,7 +19,7 @@ class Page4 extends Component {
           <div className="content-wrapper row">
             <div className="col-md-6 video-wrapper">
               <div className="embed-responsive media">
-              <Carousel>
+              <Carousel interval={1000000}>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -45,7 +45,7 @@ class Page4 extends Component {
               </div>
               <div className="btn-wrapper">
                 <div className="btn-group" role="group" aria-label="button group">
-                  <form action="https://github.com/realkth/mood" target="_blank">
+                  <form action="https://github.com/hwan97/TodayEat" target="_blank">
                     <button type="submit" className="btn btn-info-link btn-outline-secondary">
                       <span className="fa fa-github" aria-hidden="true"></span>
                       &nbsp;Github
@@ -56,13 +56,7 @@ class Page4 extends Component {
                       <span className="fa fa-globe" aria-hidden="true"></span>
                       &nbsp;Web Site
                   </button>
-                  </form>
-                  <form action="https://youtu.be/k8K98UBskyA" target="_blank">
-                    <button type="submit" className="btn btn-info-link btn-outline-secondary">
-                      <span className="fa fa-youtube-play" aria-hidden="true"></span>
-                      &nbsp;Youtube
-                  </button>
-                  </form>
+                  </form>                  
                 </div>
               </div>
             </div>
@@ -71,7 +65,7 @@ class Page4 extends Component {
                 <li className="info-list">
                   <h5 className="content-title"><span className="fa fa-hashtag" aria-hidden="true"></span> 개요</h5>
                   <p className="content-text-summary fa fa-angle-right" aria-hidden="true"> 
-                  &nbsp; 쿼라를 모티브한 서비스 입니다. 회원들 간의 질문을 하고 답변을 받거나 답변을 줄 수 있습니다. 
+                  &nbsp; 쿼라를 모티브한 서비스 입니다. 회원들 간의 질문을 하고 답변을 받거나 답변을 줄 수 있습니다. (제작중)
                   </p>
                 </li>
                 <li className="info-list">

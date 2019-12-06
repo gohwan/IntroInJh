@@ -47,7 +47,7 @@ class App extends Component {
                   <div className="page-1-content">
                     <p className="page-1-p">안녕하세요!</p>
                     <h1>프론트엔드 개발자 <strong>허지환</strong>의 포트폴리오 웹사이트입니다.</h1>
-                    <p><a className="btn btn-dark" href="https://github.com/realkth" role="button" target="_blank">
+                    <p><a className="btn btn-dark" href="https://github.com/hwan97" role="button" target="_blank">
                       <span className="fa fa-github" aria-hidden="true"></span>
                       &nbsp; Github</a></p>
                   </div>

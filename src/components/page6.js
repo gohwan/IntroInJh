@@ -18,11 +18,7 @@ class Page6 extends Component {
             <p className="more-contact"> 연락주시면 상세한 이력서 보내드리겠습니다.<br /> 당신과 함께 성장하고 싶습니다.</p>
             <p><a className="btn btn-dark btn-sm" href="https://docs.google.com/document/d/1SixjoX73MAMWlnFmKDF8cvDJsV1SYHnDsg3RC1xpwr0/edit#heading=h.x8fm1uorkbaw" role="button" target="_blank">
               <span className=" fa fa-file-text" aria-hidden="true"></span>
-              &nbsp; Resume</a></p>
-            {/* <p><a className="btn btn-dark btn-sm" href="https://github.com/realkth" role="button" target="_blank">
-              <span className="fa fa-github " aria-hidden="true"></span>
-              &nbsp; Github</a></p> */}
-            {/* <a href="">이력서!</a> */}
+              &nbsp; Resume</a></p>            
             <img src="../img/FireShot Capture 010 - 오늘뭐먹지! - todayeat.kro.kr.png" alt=""/>
           </div>
         </div>

@@ -44,24 +44,18 @@ class Page3 extends Component {
               </div>
               <div className="btn-wrapper">
                 <div className="btn-group" role="group" aria-label="button group">
-                  <form action="https://github.com/realkth/Bond" target="_blank">
+                  <form action="https://github.com/hwan97/TodayEat" target="_blank">
                     <button type="submit" className="btn btn-info-link btn-outline-secondary">
                       <span className="fa fa-github" aria-hidden="true"></span>
                       &nbsp;Github
                   </button>
                   </form>
-                  <form action="http://bond.thekym.com" target="_blank">
+                  <form action="http://todayeat.kro.kr/" target="_blank">
                     <button type="submit" className="btn btn-info-link btn-outline-secondary">
                       <span className="fa fa-globe" aria-hidden="true"></span>
                       &nbsp;Web Site
                   </button>
-                  </form>                  
-                  <form action="https://youtu.be/gty0xzSBzRk" target="_blank">
-                    <button type="submit" className="btn btn-info-link btn-outline-secondary">
-                      <span className="fa fa-youtube-play" aria-hidden="true"></span>
-                      &nbsp;Youtube
-                  </button>
-                  </form>
+                  </form>                                    
                 </div>
               </div>
             </div>
