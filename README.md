@@ -19,8 +19,4 @@ React로 만든 웹 포트폴리오
 ## 기술
 
 * React
-* JSX
-* JavaScript
-* Scss
-* Bootstrap
 * Firebase
